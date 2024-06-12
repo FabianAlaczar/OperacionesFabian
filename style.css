@@ -65,6 +65,7 @@ input[type="number"]::-moz-inner-spin-button {
 .button-group {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 button {
@@ -75,7 +76,8 @@ button {
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    width: 45%;
+    margin: 5px;
+    flex: 1 1 calc(50% - 10px);
     box-sizing: border-box;
 }
 
